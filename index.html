@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/sitestyle.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <title>Frontend Mentor | Social Media Dashboard</title>
+</head>
+<body>
+
+  <!-- Main Header -->
+  <header>
+    <div class="container">
+        <!-- Header Titles -->
+      <div class="main">
+        <ul class="mainTitle">
+          <li>Social Media Dashboard</li>
+          <li>Total Followers: 23,004</li>
+        </ul>
+      </div>
+
+      <hr class="smallLine">
+
+      <!-- Dark Mode Switch -->
+      <ul class="button">
+        <li class="darkMode">Dark Mode</li>
+        <div>
+          <input type="checkbox" class="checkbox" id="switch-theme"/>
+          <label class="label" for="switch-theme">
+              <div class="ball"></div>
+          </label>
+        </div>
+      </ul>
+    </div>
+  </header>
+  <!-- End of Header Section -->
+
+  <!-- Large cards -->
+  <section>
+    <div class="wrap">
+
+      <!-- Large card #1 -->
+      <div class="card card1">
+        <ul>
+          <div class="row logo">
+            <img src="images/icon-facebook.svg" alt="Facebook Icon">
+            <li class="infoName">@nathanf</li>
+          </div>
+          <li class="infoNumber">1987</li>
+          <li class="infoFollowers">Followers</li>
+          <div class="row"> 
+            <img src="images/icon-up.svg" alt="Growth arrow">
+            <li class="infoGrowth">12 Today</li>
+          </div>
+        </ul>
+      </div>
+
+      <!-- Large card #2 -->
+      <div class="card card2">
+        <ul>
+          <div class="row logo">
+            <img src="images/icon-twitter.svg" alt="Twitter Icon">
+            <li class="infoName">@nathanf</li>
+          </div>
+          <li class="infoNumber">1044</li>
+          <li class="infoFollowers">Followers</li>
+          <div class="row">
+            <img src="images/icon-up.svg" alt="Growth arrow">
+            <li class="infoGrowth">99 Today</li>
+        </div>
+        </ul>
+      </div>
+
+      <!-- Large card #3 -->
+      <div class="card card3">
+        <ul>
+          <div class="row logo">
+            <img src="images/icon-instagram.svg" alt="Instagram Icon">
+            <li class="infoName">@nathanf</li>
+          </div>
+          <li class="infoNumber">11.1k</li>
+          <li class="infoFollowers">Followers</li>
+          <div class="row">
+            <img src="images/icon-up.svg" alt="Growth arrow"> 
+            <li class="infoGrowth">1099 Today</li>
+          </div>
+        </ul>
+      </div>
+
+      <!-- Large card #4 -->
+      <div class="card card4">
+        <ul>
+          <div class="row logo">
+            <img src="images/icon-youtube.svg" alt="Youtube Icon">
+            <li class="infoName">Nathan F.</li>
+          </div>
+          <li class="infoNumber">8239</li>
+          <li class="infoFollowers">subscribers</li>
+          <div class="row">
+            <img src="images/icon-down.svg" alt="Down arrow"> 
+            <li class="infoGrowth">144 Today</li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- End of Large cards -->
+
+  <!-- Small cards -->
+  <section class="container">
+    <h2>Overview - Today</h2>
+
+    <!-- Mini card #1 -->
+    <div class="miniCards">
+      <ul class="miniCard miniCard1">
+        <li class="infoViews">Page views</li>
+        <div class="row2 logo">
+          <img src="images/icon-facebook.svg" alt="Facebook Icon">
+        </div>
+        <li class="infoNumberSmall">87</li>
+        <div class="row">
+          <img src="images/icon-up.svg" alt="Growth arrow" class="arrow">
+          <li class="percent">3%</li>
+        </div>
+      </ul>
+
+      <!-- Mini card #2 -->
+      <ul class="miniCard miniCard2">
+        <li class="infoViews">Likes</li>
+        <div class="row2 logo">
+          <img src="images/icon-facebook.svg" alt="Facebook Icon">
+        </div>
+        <li class="infoNumberSmall">52</li>
+        <div class="row">
+          <img src="images/icon-down.svg" alt="Down arrow" class="arrow">
+          <li class="percent">2%</li>
+        </div>
+      </ul>
+
+      <!-- Mini card #3 -->
+      <ul class="miniCard miniCard3">
+        <li class="infoViews">Likes</li>
+        <div class="row2 logo">
+          <img src="images/icon-instagram.svg" alt="Instagram Icon">
+        </div>
+        <li class="infoNumberSmall">5462</li>
+        <div class="row">
+          <img src="images/icon-up.svg" alt="Growth arrow" class="arrowFour">
+          <li class="percent">2257%</li>
+        </div>
+      </ul>
+
+      <!-- Mini card #4 -->
+      <ul class="miniCard miniCard4">
+        <li class="infoViews">Profile Views</li>
+        <div class="row2 logo">
+          <img src="images/icon-instagram.svg" alt="Instagram Icon">
+        </div>
+        <li class="infoNumberSmall">52k</li>
+        <div class="row">
+          <img src="images/icon-up.svg" alt="Growth arrow" class="arrowFour">
+          <li class="percent">1375%</li>
+        </div>
+      </ul>
+
+      <!-- Mini card #5 -->
+      <ul class="miniCard miniCard5">
+        <li class="infoViews">Retweets</li>
+        <div class="row2 logo">
+          <img src="images/icon-twitter.svg" alt="Twitter Icon">
+        </div>
+        <li class="infoNumberSmall">117</li>
+        <div class="row">
+          <img src="images/icon-up.svg" alt="Growth arrow" class="arrowThree">
+          <li class="percent">303%</li>
+        </div>
+      </ul>
+
+      <!-- Mini card #6 -->
+      <ul class="miniCard miniCard6">
+        <li class="infoViews">Likes</li>
+        <div class="row2 logo">
+          <img src="images/icon-twitter.svg" alt="Twitter Icon">
+        </div>
+        <li class="infoNumberSmall">507</li>
+        <div class="row">
+          <img src="images/icon-up.svg" alt="Growth arrow" class="arrowThree">
+          <li class="percent">552%</li>
+        </div>
+      </ul>
+
+      <!-- Mini card #7 -->
+      <ul class="miniCard miniCard7">
+        <li class="infoViews">Likes</li>
+        <div class="row2 logo">
+          <img src="images/icon-youtube.svg" alt="Youtube Icon">
+        </div>
+        <li class="infoNumberSmall">107</li>
+        <div class="row">
+          <img src="images/icon-down.svg" alt="Down arrow" class="arrow">
+          <li class="percent">19%</li>
+        </div>
+      </ul>
+
+      <!-- Mini card #8 -->
+      <ul class="miniCard miniCard8">
+        <li class="infoViews">Total Views</li>
+        <div class="row2 logo">
+          <img src="images/icon-youtube.svg" alt="Youtube Icon">
+        </div>
+        <div class="grid">
+        <li class="infoNumberSmall">1407</li>
+        <div class="row">
+          <img src="images/icon-down.svg" alt="Down arrow" class="arrow">
+          <li class="percent">12%</li>
+        </div>
+        </div>
+      </ul>
+    </div>
+  </section>
+  <!-- End of Small cards -->
+
+  <!-- Attribution -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Andrew Duffin</a>.
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
